@@ -1,8 +1,8 @@
-# onlinestore2021\_基础3\_onlinestore_content
+ onlinestore2021\_基础3\_onlinestore_content
 
-### Recursion & Stream to lookup
+ Recursion & Stream to lookup
 
-```java
+
 	//=== bean add new features --> mybatis-
 	@TableField(exist = false)
 	private List<CategoryEntity> children;
@@ -494,7 +494,7 @@ public enum AttrEnum{
 </delete>
 ```
 
-#### VO应当用于controller layer，封装view、前端想要的内容。不掺杂DB entity的详细内容。 
+#### VO应当用于controller layer，封装view、前端想要的内容。不掺杂DB entity的详细内容。
 
 ```java
 //请求变量不为空：
